@@ -1,0 +1,162 @@
+{
+  "statistics": {
+    "num_wavs": 9,
+    "num_words": 47,
+    "num_entities": 0,
+    "correct_transcriptions": 6,
+    "correct_intent_names": 0,
+    "correct_words": 43,
+    "correct_entities": 0,
+    "transcription_accuracy": 0.9148936170212766,
+    "intent_accuracy": 1,
+    "entity_accuracy": 1
+  },
+  "actual": {
+    "está_cerrada_la_puerta_del_garaje.wav": {
+      "text": "está cerrada la puerta del garaje",
+      "transcribe_seconds": 0.08248734474182129,
+      "wav_seconds": 2.6741875,
+      "likelihood": 0.813000140435791,
+      "word_error": {
+        "expected": "está cerrada la  puerta del garaje",
+        "actual": "está cerrada la  puerta del garaje",
+        "words": 6,
+        "correct": 6,
+        "errors": 0
+      }
+    },
+    "que_tan_frio_esta.wav": {
+      "text": "del tan frio esta",
+      "transcribe_seconds": 0.04710984230041504,
+      "wav_seconds": 1.740375,
+      "likelihood": 0.02429873747828769,
+      "word_error": {
+        "expected": "QUE tan frio esta",
+        "actual": "DEL tan frio esta",
+        "words": 4,
+        "correct": 3,
+        "errors": 1
+      }
+    },
+    "está_abierta_la_puerta_del_garaje.wav": {
+      "text": "está abierta la puerta de lámpara hace",
+      "transcribe_seconds": 0.07237124443054199,
+      "wav_seconds": 2.568,
+      "likelihood": 0.006413274554556185,
+      "word_error": {
+        "expected": "está abierta la  puerta *** DEL      GARAJE",
+        "actual": "está abierta la  puerta DE  LáMPARA HACE",
+        "words": 6,
+        "correct": 4,
+        "errors": 3
+      }
+    },
+    "apagar_la_lámpara_de_la_sala_de_estar.wav": {
+      "text": "apagar la lámpara de la es la de estar",
+      "transcribe_seconds": 0.08385801315307617,
+      "wav_seconds": 2.9034375,
+      "likelihood": 0.2515383092508602,
+      "word_error": {
+        "expected": "apagar la  lámpara de  la  *** SALA de  estar",
+        "actual": "apagar la  lámpara de  la  ES  LA   de  estar",
+        "words": 8,
+        "correct": 7,
+        "errors": 2
+      }
+    },
+    "enciende_la_lámpara_de_la_sala.wav": {
+      "text": "enciende la lámpara de la sala",
+      "transcribe_seconds": 0.06954360008239746,
+      "wav_seconds": 2.4859375,
+      "likelihood": 0.32666186780217,
+      "word_error": {
+        "expected": "enciende la  lámpara de  la  sala",
+        "actual": "enciende la  lámpara de  la  sala",
+        "words": 6,
+        "correct": 6,
+        "errors": 0
+      }
+    },
+    "encender_la_luz_del_garaje.wav": {
+      "text": "encender la luz del garaje",
+      "transcribe_seconds": 0.06599545478820801,
+      "wav_seconds": 2.2876875,
+      "likelihood": 0.13734900465438163,
+      "word_error": {
+        "expected": "encender la  luz del garaje",
+        "actual": "encender la  luz del garaje",
+        "words": 5,
+        "correct": 5,
+        "errors": 0
+      }
+    },
+    "cuál_es_la_temperatura.wav": {
+      "text": "cuál es la temperatura",
+      "transcribe_seconds": 0.049636125564575195,
+      "wav_seconds": 1.8536875,
+      "likelihood": 0.5625548262999054,
+      "word_error": {
+        "expected": "cuál es  la  temperatura",
+        "actual": "cuál es  la  temperatura",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "apagar_la_luz_del_garaje.wav": {
+      "text": "apagar la luz del garaje",
+      "transcribe_seconds": 0.06002044677734375,
+      "wav_seconds": 2.0418125,
+      "likelihood": 0.7790898222921722,
+      "word_error": {
+        "expected": "apagar la  luz del garaje",
+        "actual": "apagar la  luz del garaje",
+        "words": 5,
+        "correct": 5,
+        "errors": 0
+      }
+    },
+    "que_calor_hace.wav": {
+      "text": "que calor hace",
+      "transcribe_seconds": 0.03393149375915527,
+      "wav_seconds": 1.3485625,
+      "likelihood": 0.851446474661495,
+      "word_error": {
+        "expected": "que calor hace",
+        "actual": "que calor hace",
+        "words": 3,
+        "correct": 3,
+        "errors": 0
+      }
+    }
+  },
+  "expected": {
+    "está_cerrada_la_puerta_del_garaje.wav": {
+      "text": "está cerrada la puerta del garaje"
+    },
+    "que_tan_frio_esta.wav": {
+      "text": "que tan frio esta"
+    },
+    "está_abierta_la_puerta_del_garaje.wav": {
+      "text": "está abierta la puerta del garaje"
+    },
+    "apagar_la_lámpara_de_la_sala_de_estar.wav": {
+      "text": "apagar la lámpara de la sala de estar"
+    },
+    "enciende_la_lámpara_de_la_sala.wav": {
+      "text": "enciende la lámpara de la sala"
+    },
+    "encender_la_luz_del_garaje.wav": {
+      "text": "encender la luz del garaje"
+    },
+    "cuál_es_la_temperatura.wav": {
+      "text": "cuál es la temperatura"
+    },
+    "apagar_la_luz_del_garaje.wav": {
+      "text": "apagar la luz del garaje"
+    },
+    "que_calor_hace.wav": {
+      "text": "que calor hace"
+    }
+  }
+}

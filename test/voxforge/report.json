@@ -1,0 +1,178 @@
+{
+  "statistics": {
+    "num_wavs": 10,
+    "num_words": 180,
+    "num_entities": 0,
+    "correct_transcriptions": 1,
+    "correct_intent_names": 0,
+    "correct_words": 153,
+    "correct_entities": 0,
+    "transcription_accuracy": 0.85,
+    "intent_accuracy": 1,
+    "entity_accuracy": 1
+  },
+  "actual": {
+    "es-0036.wav": {
+      "text": "los tecleos del piano y los gemidos de los violines del techo coloreado árabes por el reflejo azul de la tarde",
+      "transcribe_seconds": 0.47513771057128906,
+      "wav_seconds": 10.25,
+      "likelihood": 0.004771380672113839,
+      "word_error": {
+        "expected": "los tecleos del piano y   los gemidos de  los violines del techo coloreado A   LA  VEZ     por el  reflejo azul de  la  tarde",
+        "actual": "los tecleos del piano y   los gemidos de  los violines del techo coloreado *** *** áRABES por el  reflejo azul de  la  tarde",
+        "words": 23,
+        "correct": 20,
+        "errors": 3
+      }
+    },
+    "es-0028.wav": {
+      "text": "sus cabezas rubias de hermanos y los arcos de sus violines destacábanse sobre los rectángulos luminosos de cuatro ventanas",
+      "transcribe_seconds": 0.45658445358276367,
+      "wav_seconds": 12.375,
+      "likelihood": 0.034676617643143365,
+      "word_error": {
+        "expected": "sus cabezas rubias de  GERMANOS y   los arcos de  sus violines destacábanse sobre los rectángulos luminosos de  cuatro ventanas",
+        "actual": "sus cabezas rubias de  HERMANOS y   los arcos de  sus violines destacábanse sobre los rectángulos luminosos de  cuatro ventanas",
+        "words": 19,
+        "correct": 18,
+        "errors": 1
+      }
+    },
+    "es-0031.wav": {
+      "text": "amarilla invisible terminó acompañándola fieles en este cambio de situación regular y acompasado como el de un péndulo",
+      "transcribe_seconds": 0.4450671672821045,
+      "wav_seconds": 11,
+      "likelihood": 0.000681070170337456,
+      "word_error": {
+        "expected": "amarilla DE  invisible TéRMINO acompañándola fieles en  este cambio de  situación regular y   acompasado como el  de  un  péndulo",
+        "actual": "amarilla *** invisible TERMINó acompañándola fieles en  este cambio de  situación regular y   acompasado como el  de  un  péndulo",
+        "words": 19,
+        "correct": 17,
+        "errors": 2
+      }
+    },
+    "es-0032.wav": {
+      "text": "unas líneas negras y oblicuas semejantes acuerdos",
+      "transcribe_seconds": 0.2052462100982666,
+      "wav_seconds": 6.625,
+      "likelihood": 0.08884334660450442,
+      "word_error": {
+        "expected": "unas líneas negras y   oblicuas semejantes A   CUERDAS",
+        "actual": "unas líneas negras y   oblicuas semejantes *** ACUERDOS",
+        "words": 8,
+        "correct": 6,
+        "errors": 2
+      }
+    },
+    "es-0029.wav": {
+      "text": "qué cerraban la perspectiva al otro lado de los cristales ligeramente turbios por la humedad del exterior",
+      "transcribe_seconds": 0.34467411041259766,
+      "wav_seconds": 9.375,
+      "likelihood": 0.09439439472315032,
+      "word_error": {
+        "expected": "QUE  cerraban la  perspectiva al  otro lado de  los cristales ligeramente turbios por la  humedad *** exterior",
+        "actual": "QUé cerraban la  perspectiva al  otro lado de  los cristales ligeramente turbios por la  humedad DEL exterior",
+        "words": 16,
+        "correct": 15,
+        "errors": 2
+      }
+    },
+    "es-0035.wav": {
+      "text": "del fondo vence unas alan llegaban confundidos con risas de mujeres y choques de bandejas",
+      "transcribe_seconds": 0.3441753387451172,
+      "wav_seconds": 8.25,
+      "likelihood": 0.005182799214349392,
+      "word_error": {
+        "expected": "del fondo DEL   SEGUNDO SALóN llegaban confundidos con risas de  mujeres y   CHOQUE  de  bandejas",
+        "actual": "del fondo VENCE UNAS    ALAN   llegaban confundidos con risas de  mujeres y   CHOQUES de  bandejas",
+        "words": 15,
+        "correct": 11,
+        "errors": 4
+      }
+    },
+    "es-0034.wav": {
+      "text": "cubiertos al presente de contactos líneas las personas cercanas a él fumaban silenciosas oh seguían sus conversaciones con lentitud soñolienta",
+      "transcribe_seconds": 0.501990795135498,
+      "wav_seconds": 12.75,
+      "likelihood": 0.0005448657738838058,
+      "word_error": {
+        "expected": "cubiertos al  presente de  COMPACTAS líneas las personas cercanas a   él fumaban silenciosas O   seguían sus conversaciones con lentitud soñolienta",
+        "actual": "cubiertos al  presente de  CONTACTOS líneas las personas cercanas a   él fumaban silenciosas OH  seguían sus conversaciones con lentitud soñolienta",
+        "words": 20,
+        "correct": 18,
+        "errors": 2
+      }
+    },
+    "es-0030.wav": {
+      "text": "murió hace pasan dote una otra ventana con lento balance una especie de columna esbelta",
+      "transcribe_seconds": 0.39899349212646484,
+      "wav_seconds": 9.75,
+      "likelihood": 0.00449708248242109,
+      "word_error": {
+        "expected": "***    MOVíASE PASANDO DE   una A    OTRA    VENTANACON lento BALANCEO una especie de  columna esbelta",
+        "actual": "MURIó HACE     PASAN   DOTE una OTRA VENTANA CON        lento BALANCE  una especie de  columna esbelta",
+        "words": 14,
+        "correct": 7,
+        "errors": 8
+      }
+    },
+    "es-0033.wav": {
+      "text": "todo estaba lo mismo que una hora antes cuando él te humeaba en la taza logia ahora vacía y blanqueaban lo sobre la mesa los piojos",
+      "transcribe_seconds": 0.5670545101165771,
+      "wav_seconds": 12.125,
+      "likelihood": 6.424421458232724e-05,
+      "word_error": {
+        "expected": "todo estaba lo  mismo que una hora antes cuando EL  Té humeaba en  la  taza DE  OJEDA ahora vacía y   blanqueaban *** sobre la  mesa los PLIEGOS",
+        "actual": "todo estaba lo  mismo que una hora antes cuando éL TE  humeaba en  la  taza *** LOGIA ahora vacía y   blanqueaban LO  sobre la  mesa los PIOJOS",
+        "words": 26,
+        "correct": 21,
+        "errors": 6
+      }
+    },
+    "es-0027.wav": {
+      "text": "media docena de músicos uniformados lo mismo que los camareros agrupábanse sobre una tarima alrededor de un piano de cola",
+      "transcribe_seconds": 0.42785024642944336,
+      "wav_seconds": 11.75,
+      "likelihood": 0.011596909665223944,
+      "word_error": {
+        "expected": "media docena de  músicos uniformados lo  mismo que los camareros agrupábanse sobre una tarima alrededor de  un  piano de  cola",
+        "actual": "media docena de  músicos uniformados lo  mismo que los camareros agrupábanse sobre una tarima alrededor de  un  piano de  cola",
+        "words": 20,
+        "correct": 20,
+        "errors": 0
+      }
+    }
+  },
+  "expected": {
+    "es-0036.wav": {
+      "text": "los tecleos del piano y los gemidos de los violines del techo coloreado a la vez por el reflejo azul de la tarde"
+    },
+    "es-0028.wav": {
+      "text": "sus cabezas rubias de germanos y los arcos de sus violines destacábanse sobre los rectángulos luminosos de cuatro ventanas"
+    },
+    "es-0031.wav": {
+      "text": "amarilla de invisible término acompañándola fieles en este cambio de situación regular y acompasado como el de un péndulo"
+    },
+    "es-0032.wav": {
+      "text": "unas líneas negras y oblicuas semejantes a cuerdas"
+    },
+    "es-0029.wav": {
+      "text": "que cerraban la perspectiva al otro lado de los cristales ligeramente turbios por la humedad exterior"
+    },
+    "es-0035.wav": {
+      "text": "del fondo del segundo salón llegaban confundidos con risas de mujeres y choque de bandejas"
+    },
+    "es-0034.wav": {
+      "text": "cubiertos al presente de compactas líneas las personas cercanas a él fumaban silenciosas o seguían sus conversaciones con lentitud soñolienta"
+    },
+    "es-0030.wav": {
+      "text": "movíase pasando de una a otra ventanacon lento balanceo una especie de columna esbelta"
+    },
+    "es-0033.wav": {
+      "text": "todo estaba lo mismo que una hora antes cuando el té humeaba en la taza de ojeda ahora vacía y blanqueaban sobre la mesa los pliegos"
+    },
+    "es-0027.wav": {
+      "text": "media docena de músicos uniformados lo mismo que los camareros agrupábanse sobre una tarima alrededor de un piano de cola"
+    }
+  }
+}
