@@ -1,3 +1,7 @@
+---
+name: "es_pocketsphinx-cmu"
+version: "1.1"
+
 language:
   name: "spanish"
   code: "es"
