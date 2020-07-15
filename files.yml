@@ -25,8 +25,8 @@ default:
     bytes: 151621
     sha256: 807f2813dfdfa07852148951d2b58681eab9d7e97128b41b78dc44d936fc8eab
   profile.yml:
-    bytes: 387
-    sha256: 98f0f06bc5988aecdb4f43047f33d987c844a38894cf170bd1b2cbd1ca2812a6
+    bytes: 426
+    sha256: 8ab6688c4a11b190b317268f4387dbc4e0de25e445eb316f7603f1ef567af6d1
   slot_programs/rhasspy/number:
     bytes: 651
     sha256: d1f10ccea552c2c9ba2a59dd69705f8e82545592c7db5ca7078b462ed9d08387
@@ -36,8 +36,13 @@ default:
 
 # Files needed to guess word pronunciations
 grapheme-to-phoneme:
+  g2p.corpus.gz:
+    bytes: 92596
+    file-name: g2p.corpus
+    sha256: 78d813315d3b5fd22d790251b4cf4a2cde8fad7c6da95caffc747304000f4305
   g2p.fst.gz:
     bytes: 2034897
+    file-name: g2p.fst
     sha256: 870c3ac620565059ba3a91709e4df674593254328c10af4e8def9815d025fe07
 
 # Files needed for open transcription (pre-built model)
@@ -55,8 +60,8 @@ mixed-language-model:
 # Files needed for text to speech
 text-to-speech:
   espeak_phonemes.txt:
-    bytes: 108
-    sha256: c854dd0c98362203bc45c63a3ed2fb4677d35b95e5f893ce7e9539b2547c4d40
+    bytes: 272
+    sha256: 84895860f70c873cb5c22347a25a1bdc3212a57c9b466ee9c28549e5755af97c
 
 # Sample sentences, etc.
 examples:
